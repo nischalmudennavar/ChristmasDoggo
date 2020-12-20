@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+    display: none;
+  }
+
+  .container{
+
+    background: #000000;
+    height:auto;
+    width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#fff;
+
+    .home-section{
+
+        height:100vh;
+        width:100vw;
+        background: rgb(0, 0, 0);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+    
+      
+        .images{
+
+            height:50%;
+            width:50%;
+            display:flex;flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .image{
+
+                position: relative;;
+                width:30%;
+            }
+            .lid{
+
+                width:25%;
+                z-index:20;
+                top:13px;
+                
+
+            }
+            .box{
+                width:22%;
+                z-index:10;
+                box-shadow: 0px 0px 10px #000;
+            }
+            .dogooo{
+                width:9%;
+                z-index:9;
+                position: absolute;
+
+            }
+            .message{
+
+                position:absolute;
+            }
+
+        }
+        #particles-js{
+
+            position:absolute;
+            top:0;
+            height:100vh;
+            width: 100vw;
+        
+        }
+        
+    }
+
+   
+   
+  }
