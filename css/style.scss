@@ -16,6 +16,8 @@
     width:100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:#fff;
+    position:relative;
+    z-index: 999999999;
 
     .home-section{
 
@@ -72,6 +74,7 @@
             top:0;
             height:100vh;
             width: 100vw;
+            z-index: 1;
         
         }
         
